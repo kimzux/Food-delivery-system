@@ -39,7 +39,7 @@ export default function MenuSection() {
         if (res.data.length > 0) {
           setActiveCategory(res.data[0].slug)
         }
-      } catch (err) {
+      } catch {
         setError('Failed to load categories')
       } finally {
         setLoading(false)
@@ -60,7 +60,7 @@ export default function MenuSection() {
         if (scrollRef.current) {
           scrollRef.current.scrollTo({ left: 0, behavior: 'smooth' })
         }
-      } catch (err) {
+      } catch {
         setError('Failed to load foods')
       } finally {
         setFoodsLoading(false)

@@ -43,7 +43,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
       setSuccess(true)
       clearCart()
       setAddress('')
-    } catch (err) {
+    } catch {
       setError('Failed to place order. Please try again.')
     } finally {
       setLoading(false)
