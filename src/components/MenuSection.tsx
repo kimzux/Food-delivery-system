@@ -156,7 +156,7 @@ export default function MenuSection() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-6">
-        <div className="flex flex-row lg:flex-col gap-1 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 shrink-0 relative lg:mr-24">
+        <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 shrink-0 relative lg:mr-24">
           <div className="hidden lg:block absolute -right-20 top-0 bottom-0 w-1 bg-gray-100 rounded-full" />
 
           {categories.map((cat: Category) => (
