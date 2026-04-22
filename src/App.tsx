@@ -1,6 +1,10 @@
 import Navbar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import ServiceSection from './components/ServiceSection'
+import MenuSection from './components/MenuSection'
+import FeedbackSection from './components/FeedbackSEction'
+import GetStarted from './components/GetStarted'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -8,6 +12,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <ServiceSection />
+      <MenuSection />
+      <FeedbackSection />
+      <GetStarted />
+      <Footer />
     </div>
   )
 }

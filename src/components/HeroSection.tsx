@@ -18,7 +18,7 @@ export default function HeroSection() {
           </button>
 
           <div className="mt-5 lg:mt-10">
-            <h1 className="text-3xl font-bold lg:text-7xl md:text-5xl ">
+            <h1 className="text-3xl font-bold lg:text-5xl xl:text-7xl md:text-5xl ">
               Claim Best Offer on Fast{' '}
               <span className="text-red-500 font-['Lobster_Two']">food</span>
               <span className="font-['Rubik']"> & </span>
